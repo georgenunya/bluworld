@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>BLU.WORLD</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-106SZR0W55"></script>
@@ -17,12 +20,15 @@
 </script>
 </head>
 <body>
-    <div class="fullscreen">
+    <div class="fullscreenhome">
       <div class="container">
         <div class="center">
-          <a href="home.html">
-          <button>Enter</button>            
-          </a>
+            <form method="POST" action="subscribe.php">
+                <input class="formemail" type="email" name="Email" size="20">
+                <a href="subscribe.php" class="subscribebutton" type="submit" value="Submit" name="Submit">
+                    <p>JOIN THE MOVEMENT</p>                
+                    </a>
+                </form>
         </div>
       </div>
     </div>
